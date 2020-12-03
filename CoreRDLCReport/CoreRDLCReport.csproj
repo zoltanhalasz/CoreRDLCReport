@@ -10,7 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="wwwroot\Reports\Employees.rdlc" />
+    <EmbeddedResource Include="wwwroot\Reports\Employees.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
